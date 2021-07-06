@@ -1,8 +1,4 @@
-![Original data](videos/df2_sc_c_ds_frames.mp4)
-![S-NeRF Novel View Synthesis](videos/df2_sc_c_flyover_rgb.mp4)
-![S-NeRF Shape](videos/df2_sc_c_flyover_depth.mp4)
-![S-NeRF Albedo](videos/df2_sc_c_flyover_no_shadow.mp4)
-![S-NeRF Sun Visibility](videos/df2_sc_c_flyover_ret_sun.mp4)
+![banner](banner.PNG)
 
 # Shadow Neural Radiance Fields
 This project shows the application of Shadow Neural Radiance Fields (S-NeRF) to Very High Spatial Resolution RGB imagery from WorldView-3. This code was used for the paper called **Shadow Neural Radiance Fields for Multi-view Satellite Photogrammetry** presented at CVPR 2021 - Workshop on Earth Vision. This is the result of a joint research collaboration between the Advanced Concepts Team (ESTEC) and the φ-lab (ESRIN). This repository is intended as a means to reproduce the results shown in the paper, and to stimulate further research in this direction. Links to the paper and video are provided here:
