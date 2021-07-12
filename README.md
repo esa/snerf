@@ -17,7 +17,9 @@ This repository contains:
 
 # Data
 The original images were kindly collected and provided in open access by the IEEE GRSS organization, for the [Data Fusion Competition 2019](https://ieee-dataport.org/open-access/data-fusion-contest-2019-dfc2019).
-For the paper, only four scenes over Jacksonville were used. The original scenes have been cropped and rotated using the `sat_data_handling.py` script, located in the `scripts` folder. This script pre-processes the DFC2019 data and is provided for reference. The pre-processed images are available for download, at DOI 10.5281/zenodo.5070039. After decompression the images should be placed in the `data/` folder (e.g. `data/068/JAX_068_010_RGB_crop.tif`). If placed in a different directory than `data/`, the configuration files in `config/` should be adapted to point to the appropriate location.
+For the paper, only four scenes over Jacksonville were used. The original scenes have been cropped and rotated using the `sat_data_handling.py` script, located in the `scripts` folder. This script pre-processes the DFC2019 data and is provided for reference. The pre-processed images are available for download 
+[here](https://doi.org/10.5281/zenodo.5070039).
+After decompression the images should be placed in the `data/` folder (e.g. `data/068/JAX_068_010_RGB_crop.tif`). If placed in a different directory than `data/`, the configuration files in `config/` should be adapted to point to the appropriate location.
 
 # Usage
 Training a S-NeRF requires a configuration file defining the model parameters, training procudure, shading model, and logging parameters. The description of the configuration parameters can be found in `snerf/train.py`. Training is run via the training script `train.py` as follows (replace "XXX" with the area index 004, 068, 214 or 260).
